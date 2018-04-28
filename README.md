@@ -4,6 +4,10 @@ This project exists as a simple example of configuring an application's business
 
 The two important files are `rules.js` and `clothing-logic.js`.
 
+View the [live demo](http://weather.eisenberg.ninja/).
+
+This application was inspired by the examples I used in a MKEJS tech talk. Here are the [slides from that talk](http://weather.eisenberg.ninja/).
+
 ## rules.js
 
 `rules.js` is where we define our rules. Basically we are naming different data conditions. For example, we define `windy` as the data key `wind_speed` being greater than 12.
@@ -80,3 +84,14 @@ When we call `filterImages` with data we get back an array of all truthy logic r
 Below the image we are printing out the result of [regent.explain](https://github.com/northwesternmutual/regent#explain) in a `pre` tag. `regent.explain` prints out the logic of a regent rule in human readable form, making it easy to debug.
 
 ![regent weather screenshot](./regent-weather.png)
+
+# Development
+
+This project is built on `create-react-app` so it's a pretty standard local setup.
+
+```
+git clone https://github.com/eisenivan/regent-weather-app.git
+cd regent-weather-app
+npm i
+npm run start
+```
