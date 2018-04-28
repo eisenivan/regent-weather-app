@@ -2,11 +2,11 @@
 
 This project exists as a simple example of configuring an application's business logic with [regent](https://github.com/northwesternmutual/regent).
 
-The two important files are `rules.js` and `clothing-logic.js`.
-
 View the [live demo](http://weather.eisenberg.ninja/).
 
 This application was inspired by the examples I used in a MKEJS tech talk. Here are the [slides from that talk](http://weather.eisenberg.ninja/).
+
+The two important files are `rules.js` and `clothing-logic.js`.
 
 ## rules.js
 
