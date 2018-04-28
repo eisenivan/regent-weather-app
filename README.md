@@ -4,7 +4,7 @@ This project exists as a simple example of configuring an application's business
 
 View the [live demo](http://weather.eisenberg.ninja/).
 
-This application was inspired by the examples I used in a MKEJS tech talk. Here are the [slides from that talk](http://weather.eisenberg.ninja/).
+This application was inspired by the examples I used in a MKEJS tech talk. Here are the [slides from that talk](http://regent.eisenberg.ninja/).
 
 The two important files are `rules.js` and `clothing-logic.js`.
 
