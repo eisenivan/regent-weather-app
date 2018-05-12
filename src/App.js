@@ -44,6 +44,7 @@ class App extends Component {
             <h2>Change the weather forecast</h2>
             <p>(See if you can get the sunglasses to show up)</p>
             { this.renderStateAsForm(this.state, this.handleChange) }
+            <a rel="noopener noreferrer" target="_blank" href="https://github.com/northwesternmutual/regent">Check out Regent on Github</a>
           </div>
 
           <div>
